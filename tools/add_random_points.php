@@ -18,8 +18,7 @@ $min_distance = 0.05;
 
 $iterations = 4;
 
-if ($argc < 2 ) 
-{
+if ($argc < 2 ) {
     exit( "Usage: add_random_points.php <filename.json>\n" );
 }
 
@@ -29,8 +28,7 @@ if ($argc < 2 )
 $cells = json_decode(file_get_contents($argv[1]), true);
 
 
-for ($i=0; $i<$iterations; $i++) 
-{
+for ($i=0; $i<$iterations; $i++) {
     $lookup = array();
 
     foreach ($cells['features'] as &$cell) {
@@ -39,28 +37,20 @@ for ($i=0; $i<$iterations; $i++)
         $prev = null;
         $newpoints = array();
 
-        foreach ($points as $point) 
-        {
-            if ($prev) 
-            {
+        foreach ($points as $point) {
+            if ($prev) {
                 $distance = sqrt(pow($prev[0] - $point[0], 2) + pow($prev[1] - $point[1], 2));
                 if ($distance == 0) continue;
 
-                if ($distance > $min_distance) 
-                {
+                if ($distance > $min_distance) {
                     $id_a = $prev[0]."-".$prev[1];
                     $id_b = $point[0]."-".$point[1];
 
-                    if (isset($lookup[$id_a."--".$id_b])) 
-                    {
+                    if (isset($lookup[$id_a."--".$id_b])) {
                         $newpoints[] = $lookup[$id_a."--".$id_b];
-                    } 
-                    elseif (isset($lookup[$id_b."--".$id_a])) 
-                    {
-                        $newpoints[] = $lookup[$id_b."--".$id_a];
-                    } 
-                    else 
-                    {
+                    } elseif (isset($lookup[$id_b."--".$id_a])) {
+                            $newpoints[] = $lookup[$id_b."--".$id_a];
+                    } else {
                         $x = ($prev[0]+$point[0])/2.0;
                         $y = ($prev[1]+$point[1])/2.0;
 
@@ -71,13 +61,10 @@ for ($i=0; $i<$iterations; $i++)
                         $dx = $point[0] - $x;
                         $dy = $point[1] - $y;
 
-                        if (mt_rand() / mt_getrandmax() < 0.5) 
-                        {
+                        if (mt_rand() / mt_getrandmax() < 0.5) {
                             $x_off = -$dy;
                             $y_off = $dx;
-                        } 
-                        else 
-                        {
+                        } else {
                             $x_off = $dy;
                             $y_off = -$dx;
                         }
