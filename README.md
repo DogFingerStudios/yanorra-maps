@@ -2,14 +2,29 @@ This repository holds the data for the Yanorra maps and the code to generate the
 
 ## Steps to Importing Data from Azkaar's Map Generator into QGIS
 
+A lot of these steps were taken from Azkaar's Map Generator documentation [here](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/GIS-data-export) this set of YouTube tutorials:
+
+- Part 1: [https://www.youtube.com/watch?v=WIqd_WK2cvM](https://www.youtube.com/watch?v=WIqd_WK2cvM)
+    - exporting data from Azkaar's Map Fantasy Generator
+    - smoothing out the edgedd of the cells using `add_random_points.php`
+    - importing the data into QGIS
+    - removing cells labeled as "ocean" and "sea"
+    - importing nation/border data
+- Part 2: [https://www.youtube.com/watch?v=C8mZKV9vVp4](https://www.youtube.com/watch?v=C8mZKV9vVp4)
+- Part 3: [https://www.youtube.com/watch?v=3Ut4hoiprC0](https://www.youtube.com/watch?v=3Ut4hoiprC0)
+- Part 4: [https://www.youtube.com/watch?v=OMAoV90RFS4](https://www.youtube.com/watch?v=OMAoV90RFS4)
+- Part 5: [https://www.youtube.com/watch?v=5fKMqzuMuQg](https://www.youtube.com/watch?v=5fKMqzuMuQg)
+
 ### 1. Export the map from **Azkaar's Map Generator**
+
+In the `Export` menu, under `Export to GeoJSON` select the `Cells` button. This will download a file with the extension `.geojson`.
 
 ### 2. Smooth the cell data using `add_random_points.php`
 
-The raw cell data from Azkaar's Map Generator has very jagged borders. To smooth them out, we can add random points along the borders of the cells. 
+The raw cell data inside the `.geojson` file generated from Azkaar's Map Generator has very jagged borders. To smooth them out, we can add random points along the borders of the cells. 
 
 ```bash
-php add_random_points.php cells.csv > cells_smoothed.csv
+php add_random_points.php cells.geojson > cells_smoothed.geojson
 ```
 
 
