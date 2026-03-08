@@ -1,5 +1,18 @@
 This repository holds the data for the Yanorra maps and the code to generate them. 
 
+## Steps to Importing Data from Azkaar's Map Generator into QGIS
+
+### 1. Export the map from **Azkaar's Map Generator**
+
+### 2. Smooth the cell data using `add_random_points.php`
+
+The raw cell data from Azkaar's Map Generator has very jagged borders. To smooth them out, we can add random points along the borders of the cells. 
+
+```bash
+php add_random_points.php cells.csv > cells_smoothed.csv
+```
+
+
 ## Tools
 
 This project makes extensive use of:
