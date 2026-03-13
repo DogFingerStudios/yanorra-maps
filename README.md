@@ -26,8 +26,18 @@ The raw cell data inside the `.geojson` file generated from Azkaar's Map Generat
 ```bash
 php add_random_points.php cells.geojson > cells_smoothed.geojson
 ```
+### 3. Import the data into QGIS
 
+In QGIS, go to `Layer` > `Add Layer` > `Add Vector Layer`. Then under `Source` select the `cells_smoothed.geojson` file. This will import the cell data into QGIS.
 
+### 4. Fixing Cell Data
+
+To find the bad cells, do `Vector` > `Geometry Tools` > `Check Validity`. This will create a new layer with all the invalid cells. 
+
+With the correct layer selected, press `Toggle Editing` and then select the `Vertex Tool`. This will allow you to edit the vertices of the cells.
+
+The point randomizer will sometimes flip points on thin lines to the wrong side, so when moving the verticies, you must make sure to fix adjacent cells at the same time. To ensure that, you must first right-mouse click on the toolbar and select `Advanced Digitizing Toolbar`. In that toolbar, select the `Enable Topological Editing` button. This will ensure that when you move a vertex, it will move the adjacent vertex as well.
+ 
 ## Tools
 
 This project makes extensive use of:
