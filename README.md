@@ -37,6 +37,21 @@ To find the bad cells, do `Vector` > `Geometry Tools` > `Check Validity`. This w
 With the correct layer selected, press `Toggle Editing` and then select the `Vertex Tool`. This will allow you to edit the vertices of the cells.
 
 The point randomizer will sometimes flip points on thin lines to the wrong side, so when moving the verticies, you must make sure to fix adjacent cells at the same time. To ensure that, you must first right-mouse click on the toolbar and select `Advanced Digitizing Toolbar`. In that toolbar, select the `Enable Topological Editing` button. This will ensure that when you move a vertex, it will move the adjacent vertex as well.
+
+_Vertex Tool_<br/>
+<img src="images/vertex_tool.png" alt="Vertex Tool" width="200"/>
+
+<br/>
+
+_Enable Topological Editing Button_<br/>
+<img src="images/enable_topological_editing.png" alt="Enable Topological Editing Button" width="200"/>
+
+There are two types of error that are most common: 
+1.
+
+
+2. A single vertex is flipped to the wrong side of the line, creating a small triangle. This can be fixed by moving the vertex back to the correct side of the line.
+
  
 ## Tools
 
