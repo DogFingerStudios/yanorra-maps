@@ -44,13 +44,13 @@ _Vertex Tool_<br/>
 <br/>
 
 _Enable Topological Editing Button_<br/>
-<img src="images/enable_topological_editing.png" alt="Enable Topological Editing Button" width="200"/>
+<img src="images/enable_topological_editing.png" alt="Enable Topological Editing Button" width="200"/>x
 
 There are two types of error that are most common: 
-1.
 
+**1.** A single vertex extending out from the vertix, creating a line that extends out from the cell. This can be fixed by selecting the vertex and deleting it.
 
-2. A single vertex is flipped to the wrong side of the line, creating a small triangle. This can be fixed by moving the vertex back to the correct side of the line.
+**2.** A single vertex is flipped to the wrong side of the line, creating a small triangle. This can be fixed by moving the vertex back to the correct side of the line.
 
  
 ## Tools
