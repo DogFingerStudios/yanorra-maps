@@ -39,12 +39,12 @@ With the correct layer selected, press `Toggle Editing` and then select the `Ver
 The point randomizer will sometimes flip points on thin lines to the wrong side, so when moving the verticies, you must make sure to fix adjacent cells at the same time. To ensure that, you must first right-mouse click on the toolbar and select `Advanced Digitizing Toolbar`. In that toolbar, select the `Enable Topological Editing` button. This will ensure that when you move a vertex, it will move the adjacent vertex as well.
 
 _Vertex Tool_<br/>
-<img src="images/vertex_tool.png" alt="Vertex Tool" width="200"/>
+<img src="images/topological_editing_button.png" alt="Vertex Tool" width="200"/>
 
 <br/>
 
 _Enable Topological Editing Button_<br/>
-<img src="images/enable_topological_editing.png" alt="Enable Topological Editing Button" width="200"/>x
+<img src="images/vertex_tool_button.png" alt="Enable Topological Editing Button" width="200"/>x
 
 There are two types of error that are most common: 
 
@@ -52,7 +52,24 @@ There are two types of error that are most common:
 
 **2.** A single vertex is flipped to the wrong side of the line, creating a small triangle. This can be fixed by moving the vertex back to the correct side of the line.
 
- 
+### 5. Removing ocean and sea cells
+
+To remove the ocean and sea cells, we can use the `Select Features by Value` tool. This tool allows us to select all the cells that have a certain value in a certain column. In this case, we want to select from the `type` column all the cells that have the value `ocean`. 
+
+_Select Features By Value_<br/>
+<img src="images/select_features_by_value_button.png" width="200"/>
+
+_Select Features By Value Dialog_<br/>
+<img src="images/select_features_by_value_dialog.png" width="200"/>
+
+
+Once we have selected those cells, we can delete them using the `Delete Selected` button. 
+
+_Delete Selected Button_<br/>
+<img src="images/delete_selected_button.png" width="200"/>
+
+
+
 ## Tools
 
 This project makes extensive use of:
