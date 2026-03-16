@@ -62,11 +62,20 @@ _Select Features By Value_<br/>
 _Select Features By Value Dialog_<br/>
 <img src="images/select_features_by_value_dialog.png" width="200"/>
 
-
 Once we have selected those cells, we can delete them using the `Delete Selected` button. 
 
 _Delete Selected Button_<br/>
 <img src="images/delete_selected_button.png" width="200"/>
+
+### 6. Cleaning up the data
+
+`Vector` > `Geoprocessing Tools` > `Dissolve`. This will merge all the cells that have the same value in the `type` column into a single cell. Select `Dissolve fields` and select `state`. This will merge all the ocean cells into a single cell, and all the sea cells into a single cell.
+
+Then go to `Vector` > `Geometry Tools` > `Multiparts to Singleparts`. This will split any cells that have multiple parts into single parts. This is necessary because some of the ocean and sea cells have multiple parts, and we want to split them into single parts so that we can delete them.
+
+### 7. Importing nation/border data
+
+To import the nation/border data, we use `Layer` > `Add Layer` > `Add Delimited Text Layer`. Then under `Source` select the CSV file, and under `Geometry Definition` select `No Geometry (attribute only table)`. This will import the nation/border data into QGIS as a non-spatial table.
 
 
 
