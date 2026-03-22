@@ -84,6 +84,7 @@ To import the nation/border data, we use `Layer` > `Add Layer` > `Add Delimited 
 This project makes extensive use of:
 - [Azkaar's Map Generator](https://github.com/azgaar/Fantasy-Map-Generator/)
 - [QGIS](https://www.qgis.org/en/site/)
+- [qgis2web](https://www.youtube.com/watch?v=KbPWhErsq04)
 
 ## Scripts
 
