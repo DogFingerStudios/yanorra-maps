@@ -17,8 +17,12 @@ from typing import Dict, List, Tuple
 
 MAX_DEVIATION = 0.2
 MAX_ABS = 0.02
-MIN_DISTANCE = 0.05
-ITERATIONS = 4
+
+# MIN_DISTANCE = 0.05
+MIN_DISTANCE = 0.1
+
+# ITERATIONS = 4
+ITERATIONS = 2
 
 
 Point = List[float]
