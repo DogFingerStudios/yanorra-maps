@@ -1,31 +1,33 @@
 Id,State,Full Name,Form,Color,Capital,Culture,Type,Expansionism,Cells,Burgs,Area mi2,Total Population,Rural Population,Urban Population
-71,Avelia,Duchy of Avelia,,#ffff00,Avelis,Wildlands,Generic,0.5,47,1,11904,42491,4000,38491
+0,Neutrals,,,,,,,,5106,0,2358972,133000,133000,0
+14,Velu,Velu,,#ffff00,Byad,Wildlands,Generic,11.6,773,8,358460,172720,12000,160720
+72,Sovereign Void,Sovereign Void,,#e1e1e1,Khn,Wildlands,Generic,0.5,578,1,217128,7010,7000,10
+25,Duvessa,Duvessa,,#ba84a7,Côte du Soleil,Wildlands,Highland,24.3,398,12,178748,1443000,6000,1437000
+29,Bibi Shirif,Bibi Shirif,,#5cefd7,Zayn al-Qamar,Wildlands,Naval,19.6,278,4,133444,2005020,0,2005020
+39,Ronobetu,Ronobetu,,#b7aec2,Cam Tower,Wildlands,Highland,48.9,292,4,132056,1144435,5000,1139435
 60,Barrel,Barrel,,#ff0000,Seshai,Wildlands,Generic,0.5,187,6,74296,1951380,1000,1950380
-59,Barrel Islands,Barrel Islands,,#d33ea7,Toton,Wildlands,Generic,0.5,21,2,6412,9000,0,9000
-29,Bibi Shirif,Bibi Shirif,,#5cefd7,Zayn al-Qamar,Wildlands,Naval,19.6,236,4,112844,2005020,0,2005020
-69,Booside,Booside,,#ff0000,Monstagt,Wildlands,Generic,0.5,10,1,2548,23000,0,23000
+24,Hav,Hav,,#ffcf51,Flord-Clif,Wildlands,Generic,41.8,148,2,65144,30875,2000,28875
 63,Chatunkut,Chatunkut,,#00ff00,Rangy,Wildlands,Generic,0.5,153,1,52404,45000,0,45000
-61,Disputed Territory,Disputed Territory,,url(#hatch3),Broliganta,Wildlands,Generic,0.5,2,1,612,80000,0,80000
+73,Sovereign Void,Sovereign Void,,#e1e1e1,Klek,Wildlands,Generic,0.5,128,1,49656,800,0,800
+62,Land of Water,Nation of Lakes,,#0000ff,Qaria,Wildlands,Generic,0.5,116,3,30956,945500,4000,941500
+65,Saple,Saple,,#00ff00,Saple Town,Wildlands,Generic,0.5,116,1,30760,8013,0,8013
+53,Reddelstone,Republic of Redclestone,,#0000ff,Paz,Wildlands,Generic,0.5,43,1,21716,18500,0,18500
+40,Totoku,Totoku,,#a1dd7d,Totoku,Toku,Highland,5.2,43,2,20820,55500,0,55500
 54,Dudburia,Dudburia,,#c758f6,Whitle,Wildlands,Generic,0.5,41,1,18944,43200,0,43200
-25,Duvessa,Duvessa,,#ba84a7,Côte du Soleil,Wildlands,Highland,24.3,429,7,195048,1361250,6000,1355250
 52,Endotoku,Endotoku,,#e5419c,Ornerston,Toku,Generic,0.5,31,1,16568,56000,0,56000
+18,Obetoku,Obetoku,,#fdff51,Sanceibei,Toku,Generic,30.7,38,1,15428,77049,6000,71049
+55,Samariland,Samariland,,#f8ff96,Thetbury,Wildlands,Generic,0.5,45,2,15240,880000,0,880000
+57,Nedma,Stanshonia,,#ff0000,Nee,Wildlands,Generic,0.5,32,1,13640,80000,0,80000
+47,Thornbelt,Thornbelt,,#de0000,Holt,Wildlands,Highland,37.7,44,6,12868,659700,253000,406700
+58,S'Tsutodo,S'Tsutodo,,#ff0000,Dima Eta,Wildlands,Generic,0.5,33,2,12028,105000,0,105000
+71,Avelia,Duchy of Avelia,,#ffff00,Avelis,Wildlands,Generic,0.5,47,1,11904,42491,4000,38491
+49,Soumoa,Soumoa,,#3c7832,Henna City,Wildlands,Generic,20.3,31,1,11364,1150000,0,1150000
+64,Saple Islands,Saple Islands,,#ff0000,Worths,Wildlands,Generic,0.5,36,1,9272,3500,0,3500
 66,Eve Hilmore,Eve Hilmore,,#0000ff,Towboketer,Wildlands,Generic,0.5,31,1,8916,137,0,137
 67,Grand Hilmore,Grand Hilmore,,#ffff00,Hilmore,Wildlands,Generic,0.5,30,1,7280,21500,0,21500
-24,Hav,Hav,,#ffcf51,Flord-Clif,Wildlands,Generic,41.8,148,2,65144,30875,2000,28875
-62,Land of Water,Nation of Lakes,,#0000ff,Qaria,Wildlands,Generic,0.5,116,3,30956,945500,4000,941500
-68,Larx,Larx,,#ff0000,Saple,Wildlands,Generic,0.5,11,1,2800,26000,8000,18000
-57,Nedma,Stanshonia,,#ff0000,Nee,Wildlands,Generic,0.5,32,1,13640,80000,0,80000
-0,Neutrals,,,,,,,,5812,0,2625756,140000,140000,0
-18,Obetoku,Obetoku,,#fdff51,Sanceibei,Toku,Generic,30.7,38,1,15428,77049,6000,71049
 56,Poempoon,Marlia,,#51f667,Pipat,Wildlands,Generic,0.5,14,1,6544,7600,0,7600
-53,Reddelstone,Republic of Redclestone,,#0000ff,Paz,Wildlands,Generic,0.5,43,1,21716,18500,0,18500
-39,Ronobetu,Ronobetu,,#b7aec2,Cam Tower,Wildlands,Highland,48.9,292,4,132056,1144435,5000,1139435
-58,S'Tsutodo,S'Tsutodo,,#ff0000,Dima Eta,Wildlands,Generic,0.5,33,2,12028,105000,0,105000
-55,Samariland,Samariland,,#f8ff96,Thetbury,Wildlands,Generic,0.5,45,2,15240,880000,0,880000
-65,Saple,Saple,,#00ff00,Saple Town,Wildlands,Generic,0.5,116,1,30760,8013,0,8013
-64,Saple Islands,Saple Islands,,#ff0000,Worths,Wildlands,Generic,0.5,36,1,9272,3500,0,3500
-49,Soumoa,Soumoa,,#3c7832,Henna City,Wildlands,Generic,20.3,31,1,11364,1150000,0,1150000
-47,Thornbelt,Thornbelt,,#de0000,Holt,Wildlands,Highland,37.7,44,5,12868,684700,253000,431700
-40,Totoku,Totoku,,#a1dd7d,Totoku,Toku,Highland,5.2,43,2,20820,55500,0,55500
+59,Barrel Islands,Barrel Islands,,#d33ea7,Toton,Wildlands,Generic,0.5,21,2,6412,9000,0,9000
 34,Tsutodo,Tsutodo,,#faa9ba,Cliford,Wildlands,Highland,20.4,14,1,4952,50000,0,50000
-14,Velu,Velu,,#ffff00,Byad,Wildlands,Generic,11.6,771,6,355104,168420,12000,156420
+68,Larx,Larx,,#ff0000,Saple,Wildlands,Generic,0.5,11,1,2800,26000,8000,18000
+69,Booside,Booside,,#ff0000,Monstagt,Wildlands,Generic,0.5,10,1,2548,23000,0,23000
+61,Disputed Territory,Disputed Territory,,url(#hatch3),Vir,Wildlands,Generic,0.5,2,1,612,80000,0,80000
