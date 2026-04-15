@@ -77,6 +77,7 @@ Then go to `Vector` > `Geometry Tools` > `Multiparts to Singleparts`. This will 
 
 To import the nation/border data, we use `Layer` > `Add Layer` > `Add Delimited Text Layer`. Then under `Source` select the CSV file, and under `Geometry Definition` select `No Geometry (attribute only table)`. This will import the nation/border data into QGIS as a non-spatial table.
 
+## Adding Burg Points
 
 
 ## Tools
