@@ -3,6 +3,7 @@
 "name": "settlements_points",
 "features": [
 { "type": "Feature", "properties": { "id": null, "name": "Gunsey", "settlement_type": null, "country_id": "country_velu", "region_id": null, "state_id": null, "capital_status": null, "population_class": null, "status": null, "port": false, "wiki_id": null, "label_rank": null, "zoom_min": null, "notes": null }, "geometry": { "type": "Point", "coordinates": [ -3.671682519870166, 29.713566359033063 ] } },
-{ "type": "Feature", "properties": { "id": null, "name": "Gate Genesis", "settlement_type": null, "country_id": "country_velu", "region_id": null, "state_id": null, "capital_status": null, "population_class": null, "status": null, "port": false, "wiki_id": null, "label_rank": null, "zoom_min": null, "notes": null }, "geometry": { "type": "Point", "coordinates": [ 1.108807465167993, 26.719852118588111 ] } }
+{ "type": "Feature", "properties": { "id": null, "name": "Gate Genesis", "settlement_type": null, "country_id": "country_velu", "region_id": null, "state_id": null, "capital_status": null, "population_class": null, "status": null, "port": false, "wiki_id": null, "label_rank": null, "zoom_min": null, "notes": null }, "geometry": { "type": "Point", "coordinates": [ 1.108807465167993, 26.719852118588111 ] } },
+{ "type": "Feature", "properties": { "id": null, "name": "Gate Thaurin", "settlement_type": null, "country_id": "country_velu", "region_id": null, "state_id": null, "capital_status": null, "population_class": null, "status": null, "port": false, "wiki_id": null, "label_rank": null, "zoom_min": null, "notes": null }, "geometry": { "type": "Point", "coordinates": [ 2.16, 23.4 ] } }
 ]
 }
