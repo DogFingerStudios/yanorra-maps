@@ -1,29 +1,7 @@
 {
-  "type": "FeatureCollection",
-  "name": "settlements_points",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "TEMPLATE_DELETE_ME",
-        "name": "",
-        "settlement_type": "",
-        "country_id": "",
-        "region_id": "",
-        "state_id": "",
-        "capital_status": "",
-        "population_class": "",
-        "status": "",
-        "port": false,
-        "wiki_id": "",
-        "label_rank": 0,
-        "zoom_min": 0,
-        "notes": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [0, 0]
-      }
-    }
-  ]
+"type": "FeatureCollection",
+"name": "settlements_points",
+"features": [
+{ "type": "Feature", "properties": { "id": null, "name": "Gunsey", "settlement_type": null, "country_id": "country_velu", "region_id": null, "state_id": null, "capital_status": null, "population_class": null, "status": null, "port": false, "wiki_id": null, "label_rank": null, "zoom_min": null, "notes": null }, "geometry": { "type": "Point", "coordinates": [ -3.671682519870166, 29.713566359033063 ] } }
+]
 }
