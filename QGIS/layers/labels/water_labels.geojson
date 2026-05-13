@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "political_line_labels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "lbl_velokuocean", "target_id": "water_velokuocean", "label_text": "Veloku Ocean", "label_type": "water", "rank": 1, "min_zoom": 1, "max_zoom": 10, "font_size": null, "font_style": "normal", "font_weight": "700", "text_transform": "uppercase", "letter_spacing": 2, "placement": "along_line", "start_offset": "10%", "text_anchor": "middle", "repeat": false, "visibility": "default", "certainty": "confirmed", "notes": "This is a note" }, "geometry": { "type": "LineString", "coordinates": [ [ -15.127645051194605, -1.195051194539225 ], [ -9.36109215017072, 2.474573378839608 ], [ -1.23549488054617, 5.292320819112639 ], [ 2.958361774743921, 4.1127986348123 ], [ 9.118088737201234, 2.73668941979524 ], [ 13.180887372013515, -1.195051194539225 ], [ 14.032764505119317, -3.88174061433444 ] ] } }
+]
+}
