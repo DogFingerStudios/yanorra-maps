@@ -3,6 +3,6 @@
 "name": "political_line_labels",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "id": "lbl_pol_sample", "target_id": "nat_sample", "label_text": "Sample Country", "label_type": "country", "rank": 1, "min_zoom": 3, "max_zoom": 8, "font_size": 22, "font_style": "normal", "font_weight": "700", "text_transform": "uppercase", "letter_spacing": 2, "placement": "along_line", "start_offset": "50%", "text_anchor": "middle", "repeat": false, "visibility": "default", "certainty": "confirmed", "notes": "Sample feature used to preserve fields in QGIS. Replace or delete after adding real labels." }, "geometry": { "type": "LineString", "coordinates": [ [ -47.0, 13.5 ], [ -43.5, 14.2 ], [ -39.0, 13.8 ] ] } }
+{ "type": "Feature", "properties": { "id": "lbl_pol_sample", "target_id": "nat_sample", "label_text": "Sample Country", "label_type": "country", "rank": 1, "min_zoom": 0, "max_zoom": 0, "font_size": 22, "font_style": "normal", "font_weight": "700", "text_transform": "uppercase", "letter_spacing": 2, "placement": "along_line", "start_offset": "50%", "text_anchor": "middle", "repeat": false, "visibility": "default", "certainty": "confirmed", "notes": "Sample feature used to preserve fields in QGIS. Replace or delete after adding real labels." }, "geometry": { "type": "LineString", "coordinates": [ [ -47.0, 13.5 ], [ -43.5, 14.2 ], [ -39.0, 13.8 ] ] } }
 ]
 }
