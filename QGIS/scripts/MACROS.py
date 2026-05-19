@@ -23,8 +23,14 @@ def openProject():
     layer = QgsProject.instance().mapLayersByName('cells_smooth')[0]
     layer.editingStopped.connect(rebuild_derived_cell_layers)
     
+    layer = QgsProject.instance().mapLayersByName('streets_major')[0]
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 12))
+
     layer = QgsProject.instance().mapLayersByName('streets_minor')[0]
-    layer.editingStopped.connect(generate_street_polygons)
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_minor", 7))
+
+    layer = QgsProject.instance().mapLayersByName('alleys')[0]
+    layer.editingStopped.connect(lambda: generate_road_polygons("alleys", 4))
 
 def closeProject():
     pass
@@ -142,11 +148,8 @@ def export_data_files():
         print("'biomes` layer not found")
         
 
-def generate_street_polygons():
-    generate_road_polygons("streets_minor")
-
-def generate_road_polygons(layer_name):
-    ROAD_WIDTH_METERS = 9
+def generate_road_polygons(layer_name, road_width_meters):
+    ROAD_WIDTH_METERS = road_width_meters
     BUFFER_DISTANCE_METERS = ROAD_WIDTH_METERS / 2
 
     OUTPUT_SUFFIX = "_generated"
