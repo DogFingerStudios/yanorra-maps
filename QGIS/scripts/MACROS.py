@@ -239,7 +239,7 @@ def generate_road_polygons(layer_name):
     )["OUTPUT"]
 
     # ------------------------------------------------------------
-    # 5. Save output GeoJSON under source folder/generated/
+    # 5. Build final and temporary output paths
     # ------------------------------------------------------------
 
     source_path = source_layer.source().split("|")[0]
@@ -255,15 +255,21 @@ def generate_road_polygons(layer_name):
     generated_dir.mkdir(parents=True, exist_ok=True)
 
     output_path = generated_dir / f"{source_file.stem}{OUTPUT_SUFFIX}.geojson"
+    temp_output_path = generated_dir / f"{source_file.stem}{OUTPUT_SUFFIX}.tmp.geojson"
 
-    final_output = processing.run(
+    if temp_output_path.exists():
+        temp_output_path.unlink()
+
+    # Write to temp first. This avoids writing directly over a GeoJSON
+    # that QGIS may still have open, which is especially fragile on Windows.
+    processing.run(
         "native:reprojectlayer",
         {
             "INPUT": buffered_roads,
             "TARGET_CRS": FINAL_CRS,
-            "OUTPUT": str(output_path),
+            "OUTPUT": str(temp_output_path),
         },
-    )["OUTPUT"]
+    )
 
     # ------------------------------------------------------------
     # 6. Find existing QGIS group urban/generated
@@ -307,16 +313,29 @@ def generate_road_polygons(layer_name):
             f"urban/generated/{generated_layer_name}"
         )
 
-    if not existing_generated_layer.isValid():
-        raise Exception(
-            f"Existing generated layer is not valid: "
-            f"urban/generated/{generated_layer_name}"
-        )
+    # ------------------------------------------------------------
+    # 8. Release old datasource, replace file, reload existing layer
+    # ------------------------------------------------------------
+
+    # Point the existing layer away from the output file before replacing it.
+    # This helps avoid locked-file problems on Windows.
+    existing_generated_layer.setDataSource(
+        "",
+        generated_layer_name,
+        "ogr",
+    )
+
+    if output_path.exists():
+        output_path.unlink()
+
+    os.replace(str(temp_output_path), str(output_path))
+
+    final_output = str(output_path)
 
     existing_generated_layer.setDataSource(
-        str(final_output),
+        final_output,
         generated_layer_name,
-        "ogr"
+        "ogr",
     )
     existing_generated_layer.reload()
     existing_generated_layer.triggerRepaint()
@@ -325,4 +344,4 @@ def generate_road_polygons(layer_name):
     print(f"Output path: {final_output}")
     print(f"Polygon feature count: {existing_generated_layer.featureCount()}")
 
-    return str(final_output)
+    return final_output
