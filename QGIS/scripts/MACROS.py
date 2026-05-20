@@ -69,6 +69,12 @@ def rebuild_derived_cell_layers():
 
         for field, final_path in jobs:
             temp_path = final_path.with_suffix(".tmp.geojson")
+            generated_layer_name = final_path.stem
+
+            existing_generated_layer = None
+            matches = project.mapLayersByName(generated_layer_name)
+            if matches:
+                existing_generated_layer = matches[0]
 
             print(f"[Yanorra] Rebuilding {final_path.name} from field: {field}")
 
@@ -85,10 +91,28 @@ def rebuild_derived_cell_layers():
                 },
             )
 
+            # Point the existing layer away from the output file before replacing it.
+            # This helps avoid locked-file problems on Windows.
+            if existing_generated_layer is not None:
+                existing_generated_layer.setDataSource(
+                    "",
+                    generated_layer_name,
+                    "ogr",
+                )
+
             if final_path.exists():
                 final_path.unlink()
 
             os.replace(str(temp_path), str(final_path))
+
+            if existing_generated_layer is not None:
+                existing_generated_layer.setDataSource(
+                    str(final_path),
+                    generated_layer_name,
+                    "ogr",
+                )
+                existing_generated_layer.reload()
+                existing_generated_layer.triggerRepaint()
 
         print("[Yanorra] Derived cell layers rebuilt.")
 
