@@ -728,3 +728,125 @@ notes
   Purpose: Freeform notes
   Examples: Narrow residential street leading toward the old mill.
   ```
+
+## Parks Layer
+
+```
+id
+  Type: Text
+  Purpose: Stable unique feature ID
+  Examples: park_gunsey_town_green, park_port_sable_old_harbor_green
+
+name
+  Type: Text
+  Purpose: Display name of the park/open space
+  Examples: Town Green, Old Harbor Green, North Garden
+
+settlement_id
+  Type: Text
+  Purpose: Settlement this park belongs to
+  Examples: stl_gunsey, stl_port_sable, stl_sunshine_beach
+
+country_id
+  Type: Text
+  Purpose: Nation this park belongs to
+  Examples: nation_barrel, nation_duvessa, nation_velu
+
+district_id
+  Type: Text
+  Purpose: Optional district, ward, neighborhood, or quarter
+  Examples: dist_port_sable_old_harbor, dist_gunsey_market_square
+  Note: Leave blank if the settlement has no districts.
+
+park_type
+  Type: Text
+  Purpose: Kind of park or urban open space
+  Possible values:
+    town_green
+    garden
+    public_park
+    plaza_green
+    commons
+    courtyard
+    memorial_park
+    temple_garden
+    waterfront_park
+    playground
+    sports_field
+    cemetery
+    grove
+    protected_green
+    ruin_park
+    private_garden
+    other
+    unknown
+
+status
+  Type: Text
+  Purpose: Current condition/use
+  Possible values:
+    active
+    abandoned
+    ruined
+    damaged
+    under_construction
+    planned
+    closed
+    seasonal
+    restricted
+    unknown
+
+access
+  Type: Text
+  Purpose: Who can normally enter/use it
+  Possible values:
+    public
+    restricted
+    private
+    ceremonial
+    government
+    military
+    staff_only
+    closed
+    unknown
+
+importance
+  Type: Text
+  Purpose: How prominent it is on the map/lore
+  Possible values:
+    local
+    district
+    settlement
+    regional
+    national
+    historic
+    iconic
+
+wiki_id
+  Type: Text
+  Purpose: Optional wiki entry ID
+  Examples: park_gunsey_town_green, wiki_old_harbor_green
+
+label_rank
+  Type: Integer
+  Purpose: Label priority; lower number means more important if you follow the same pattern as buildings
+  Examples:
+    1 = most important
+    2 = important settlement landmark
+    3 = local named park
+    4 = minor open space
+
+zoom_min
+  Type: Integer
+  Purpose: Minimum website zoom level where this park appears
+  Examples:
+    13
+    14
+    15
+    16
+
+notes
+  Type: Text
+  Purpose: Freeform notes
+  Examples: Small public green near the town center.
+```
