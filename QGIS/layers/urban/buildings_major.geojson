@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "buildings_major",
+"features": [
+{ "type": "Feature", "properties": { "id": "bldg_baropolice", "name": "Baro Police Station", "settlement_id": "stl_baro", "country_id": "country_duvessa", "district_id": "district_gunsey", "building_type": "civic", "status": "active", "access": "restricted", "wiki_id": null, "label_rank": 3, "zoom_min": 14, "notes": "Small town police station" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -3.632484643117009, 29.837091255633251 ], [ -3.63201786924682, 29.836792774382925 ], [ -3.631855927291856, 29.837011872321991 ], [ -3.632322701162045, 29.837323054902118 ], [ -3.632484643117009, 29.837091255633251 ] ] ] } }
+]
+}
