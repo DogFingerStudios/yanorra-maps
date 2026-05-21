@@ -598,17 +598,20 @@ notes
   Type: Text
   Purpose: Freeform notes
   Examples: Small-town police station near the main road.
-  ```
+```
 
 ## Streets
 
-This is for `streets_major.geojson` and `streets_minor.geojson`.
+These Feature Attributes apply to following layers:
+* `streets_major.geojson`
+* `streets_minor.geojson`
+* `alleys.geojson`
 
-```
+
 id
-  Type: Text
-  Purpose: Stable unique feature ID
-  Examples: street_gunsey_market_lane, street_port_sable_old_quay_road
+    Type: Text
+    Purpose: Stable unique feature ID
+    Examples: street_gunsey_market_lane, street_port_sable_old_quay_road
 
 group
   Type: Text
@@ -727,7 +730,7 @@ notes
   Type: Text
   Purpose: Freeform notes
   Examples: Narrow residential street leading toward the old mill.
-  ```
+```
 
 ## Parks Layer
 
