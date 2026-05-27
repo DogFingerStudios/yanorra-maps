@@ -1,37 +1,1134 @@
 {
-"type": "FeatureCollection",
-"name": "political_line_labels",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "id": "lbl_thornbelt", "target_id": "country_thornbelt", "label_text": "Thornbelt", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": "16", "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -55.994988969213992, 11.261432150565083 ], [ -53.519398717456674, 17.487916723166812 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_bibishirif", "target_id": "wiki/Bibi_Shirif", "label_text": "Bibi Shirif", "label_type": "country", "rank": null, "min_zoom": 2, "max_zoom": 7, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -36.573148647633353, 4.414761309088783 ], [ -23.549787860120681, 4.337927322141807 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_robobetu", "target_id": "wiki/Ronobetu", "label_text": "Ronobetu", "label_type": "country", "rank": "2", "min_zoom": 2, "max_zoom": 7, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -67.210700942740658, -3.431909607871273 ], [ -59.219966300254995, -3.355075620924296 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_velu", "target_id": "wiki/Velu", "label_text": "Velu", "label_type": "country", "rank": null, "min_zoom": 2, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 16.768846790305645, 13.970988435619105 ], [ 31.751474244966239, 14.50882634424795 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_nedma", "target_id": "wiki/Nedma", "label_text": "Nedma", "label_type": "country", "rank": null, "min_zoom": 3, "max_zoom": 9, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -32.443321849233371, -15.975057976965338 ], [ -27.833282632414729, -15.898223990018362 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_easternvoid", "target_id": "wiki/EasternVoid", "label_text": "Eastern Void", "label_type": "country", "rank": null, "min_zoom": 2, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 47.30451710406993, -37.482206767186071 ], [ 48.978072816083063, -27.524550280707924 ], [ 50.3587562784939, -14.889204655008758 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_southernvoid", "target_id": "wiki/SouthernVoid", "label_text": "Southern Void", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -63.338745481424525, -37.578573760995539 ], [ -55.393348956840427, -39.468289691166895 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_soumoa", "target_id": "wiki/Soumoa", "label_text": "Soumoa", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -43.947683152507118, 1.622294767729537 ], [ -39.556241019324823, 1.686716901712652 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_obetoku", "target_id": "wiki/Obetoku", "label_text": "Obetoku", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -47.453320943421573, -11.505951910982219 ], [ -43.788417321271069, -11.362791613241965 ] ] } },
-{ "type": "Feature", "properties": { "id": "lnl_totoku", "target_id": "wiki/Totoku", "label_text": "Totoku", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -40.395518264827047, -17.132151612174205 ], [ -37.718420697084298, -17.060571463304079 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_endotoku", "target_id": "wiki/Endotoku", "label_text": "Endotoku", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -41.970281539969847, -11.19099925595366 ], [ -37.990425262790779, -11.13373513685756 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_duvessa", "target_id": "wiki/Duvessa", "label_text": "Duvessa", "label_type": "country", "rank": null, "min_zoom": 2, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -34.755002533861038, 19.545516668878939 ], [ -22.844065761871882, 19.430988430686735 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_stsutodo", "target_id": "wiki/S_Tsutodo", "label_text": "S'Tsutodo", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -67.037649674288375, -16.802882927371623 ], [ -63.143689575753463, -16.802882927371623 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_hav", "target_id": "wiki/Hav", "label_text": "Hav", "label_type": "country", "rank": null, "min_zoom": 2, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -64.38023664748485, -32.137140319074618 ], [ -58.238659874427931, -31.965347961786314 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_tsutodo", "target_id": "wiki/Tsutodo", "label_text": "Tsutodo", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -57.351066028438346, 1.126154860873473 ], [ -55.518614217363094, 1.111838831099448 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_dudburia", "target_id": "wiki/Dudburia", "label_text": "Dudburia", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -33.148624692967665, -20.276906152535069 ], [ -28.370649755886678, -20.384276375840258 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_poempoon", "target_id": "wiki/Poempoon", "label_text": "Poempoon", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -35.206553972983826, -25.180146350138777 ], [ -32.701248762529374, -25.162251312921246 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_samariland", "target_id": "wiki/Samariland", "label_text": "Samariland", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ -28.81802568632498, -22.710631214119388 ], [ -26.599041071351035, -22.728526251336923 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_reddelstone", "target_id": "wiki/Reddelstone", "label_text": "Reddelstone", "label_type": "country", "rank": null, "min_zoom": 3, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 29.501900605611119, 7.209871013593844 ], [ 34.655671324260283, 7.317241236899033 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_barrel", "target_id": "wiki/Barrel", "label_text": "Barrel", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 21.786157058652005, -6.095089157641077 ], [ 28.693641424619294, -5.844558636595631 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_chatunkut", "target_id": "wiki/Chatunkut", "label_text": "Chatunkut", "label_type": "country", "rank": null, "min_zoom": 5, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 39.138378147252062, -19.450751934325702 ], [ 45.962352339537539, -19.546192132819208 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_landofwater", "target_id": "wiki/LandOfWater", "label_text": "Land of Water", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 9, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 35.41621040600544, -24.175041759754116 ], [ 40.927881869005247, -23.62626061841647 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_booside", "target_id": "wiki/Booside", "label_text": "Booside", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 37.247469214599533, -31.36288170879606 ], [ 39.681194276183859, -31.267441510302554 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_avelia", "target_id": "wiki/Avelia", "label_text": "Avelia", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 35.469895517658053, -32.514129103123942 ], [ 40.695246385177342, -32.740799574546017 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_larx", "target_id": "wiki/Larx", "label_text": "Larx", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 33.286700977119168, -33.790641757974541 ], [ 35.982886584560624, -33.838361857221294 ] ] } },
-{ "type": "Feature", "properties": { "id": "lnl_grandhilmore", "target_id": "wiki/GrandHilmore", "label_text": "Grand Hilmore", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 31.290410158627854, -37.036934065067541 ], [ 34.089989314437275, -37.089956397563931 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_evehilmore", "target_id": "wiki/EveHilmore", "label_text": "Eve Hilmore", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 35.192853830362196, -36.64456880459425 ], [ 38.109082117663682, -36.676382204092086 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_saple", "target_id": "wiki/Saple", "label_text": "Saple", "label_type": "country", "rank": null, "min_zoom": 6, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 37.748530256688213, -40.186460615353141 ], [ 41.354048866442774, -40.22887848135025 ] ] } },
-{ "type": "Feature", "properties": { "id": "lbl_sapleislands", "target_id": "wiki/SapleIslands", "label_text": "Saple Islands", "label_type": "country", "rank": null, "min_zoom": 4, "max_zoom": 8, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 36.688083606760394, -48.373108752795829 ], [ 38.427216112642, -50.748509248634129 ], [ 41.120750603458646, -52.530059620512851 ], [ 43.750658295279621, -52.805775749494089 ] ] } },
-{ "type": "Feature", "properties": { "id": "lnl_laghunya", "target_id": "wiki/Laghunya", "label_text": "Laghunya", "label_type": "country", "rank": null, "min_zoom": 8, "max_zoom": 10, "font_size": null, "font_style": null, "font_weight": null, "text_transform": null, "letter_spacing": null, "placement": null, "start_offset": null, "text_anchor": null, "repeat": false, "visibility": null, "certainty": null, "notes": null }, "geometry": { "type": "LineString", "coordinates": [ [ 21.639167370229238, 5.127603010117745 ], [ 22.360271092180149, 5.115820269562992 ] ] } }
-]
+    "type": "FeatureCollection",
+    "name": "political_line_labels",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_thornbelt",
+                "target_id": "country_thornbelt",
+                "label_text": "Thornbelt",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -55.994988969213992,
+                        11.261432150565083
+                    ],
+                    [
+                        -53.519398717456674,
+                        17.487916723166812
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_bibishirif",
+                "target_id": "wiki/Bibi_Shirif",
+                "label_text": "Bibi Shirif",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 2,
+                "max_zoom": 7,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -36.573148647633353,
+                        4.414761309088783
+                    ],
+                    [
+                        -23.549787860120681,
+                        4.337927322141807
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_robobetu",
+                "target_id": "wiki/Ronobetu",
+                "label_text": "Ronobetu",
+                "label_type": "country",
+                "rank": "2",
+                "min_zoom": 2,
+                "max_zoom": 7,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.210700942740658,
+                        -3.431909607871273
+                    ],
+                    [
+                        -59.219966300254995,
+                        -3.355075620924296
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_velu",
+                "target_id": "wiki/Velu",
+                "label_text": "Velu",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 2,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.768846790305645,
+                        13.970988435619105
+                    ],
+                    [
+                        31.751474244966239,
+                        14.50882634424795
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_nedma",
+                "target_id": "wiki/Nedma",
+                "label_text": "Nedma",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 3,
+                "max_zoom": 9,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -32.443321849233371,
+                        -15.975057976965338
+                    ],
+                    [
+                        -27.833282632414729,
+                        -15.898223990018362
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_easternvoid",
+                "target_id": "wiki/EasternVoid",
+                "label_text": "Eastern Void",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 2,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        47.30451710406993,
+                        -37.482206767186071
+                    ],
+                    [
+                        48.978072816083063,
+                        -27.524550280707924
+                    ],
+                    [
+                        50.3587562784939,
+                        -14.889204655008758
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_southernvoid",
+                "target_id": "wiki/SouthernVoid",
+                "label_text": "Southern Void",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -63.338745481424525,
+                        -37.578573760995539
+                    ],
+                    [
+                        -55.393348956840427,
+                        -39.468289691166895
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_soumoa",
+                "target_id": "wiki/Soumoa",
+                "label_text": "Soumoa",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -43.947683152507118,
+                        1.622294767729537
+                    ],
+                    [
+                        -39.556241019324823,
+                        1.686716901712652
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_obetoku",
+                "target_id": "wiki/Obetoku",
+                "label_text": "Obetoku",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -47.453320943421573,
+                        -11.505951910982219
+                    ],
+                    [
+                        -43.788417321271069,
+                        -11.362791613241965
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lnl_totoku",
+                "target_id": "wiki/Totoku",
+                "label_text": "Totoku",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -40.395518264827047,
+                        -17.132151612174205
+                    ],
+                    [
+                        -37.718420697084298,
+                        -17.060571463304079
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_endotoku",
+                "target_id": "wiki/Endotoku",
+                "label_text": "Endotoku",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -41.970281539969847,
+                        -11.19099925595366
+                    ],
+                    [
+                        -37.990425262790779,
+                        -11.13373513685756
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_duvessa",
+                "target_id": "wiki/Duvessa",
+                "label_text": "Duvessa",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 2,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -34.755002533861038,
+                        19.545516668878939
+                    ],
+                    [
+                        -22.844065761871882,
+                        19.430988430686735
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_stsutodo",
+                "target_id": "wiki/S_Tsutodo",
+                "label_text": "S'Tsutodo",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.037649674288375,
+                        -16.802882927371623
+                    ],
+                    [
+                        -63.143689575753463,
+                        -16.802882927371623
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_hav",
+                "target_id": "wiki/Hav",
+                "label_text": "Hav",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 2,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -64.38023664748485,
+                        -32.137140319074618
+                    ],
+                    [
+                        -58.238659874427931,
+                        -31.965347961786314
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_tsutodo",
+                "target_id": "wiki/Tsutodo",
+                "label_text": "Tsutodo",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -57.351066028438346,
+                        1.126154860873473
+                    ],
+                    [
+                        -55.518614217363094,
+                        1.111838831099448
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_dudburia",
+                "target_id": "wiki/Dudburia",
+                "label_text": "Dudburia",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 3,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -33.148624692967665,
+                        -20.276906152535069
+                    ],
+                    [
+                        -28.370649755886678,
+                        -20.384276375840258
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_poempoon",
+                "target_id": "wiki/Poempoon",
+                "label_text": "Poempoon",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -35.206553972983826,
+                        -25.180146350138777
+                    ],
+                    [
+                        -32.701248762529374,
+                        -25.162251312921246
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_samariland",
+                "target_id": "wiki/Samariland",
+                "label_text": "Samariland",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -28.81802568632498,
+                        -22.710631214119388
+                    ],
+                    [
+                        -26.599041071351035,
+                        -22.728526251336923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_reddelstone",
+                "target_id": "wiki/Reddelstone",
+                "label_text": "Reddelstone",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        29.501900605611119,
+                        7.209871013593844
+                    ],
+                    [
+                        34.655671324260283,
+                        7.317241236899033
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_barrel",
+                "target_id": "wiki/Barrel",
+                "label_text": "Barrel",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 3,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.786157058652005,
+                        -6.095089157641077
+                    ],
+                    [
+                        28.693641424619294,
+                        -5.844558636595631
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_chatunkut",
+                "target_id": "wiki/Chatunkut",
+                "label_text": "Chatunkut",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 3,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        39.138378147252062,
+                        -19.450751934325702
+                    ],
+                    [
+                        45.962352339537539,
+                        -19.546192132819208
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_landofwater",
+                "target_id": "wiki/LandOfWater",
+                "label_text": "Land of Water",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 9,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        35.41621040600544,
+                        -24.175041759754116
+                    ],
+                    [
+                        40.927881869005247,
+                        -23.62626061841647
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_booside",
+                "target_id": "wiki/Booside",
+                "label_text": "Booside",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        37.247469214599533,
+                        -31.36288170879606
+                    ],
+                    [
+                        39.681194276183859,
+                        -31.267441510302554
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_avelia",
+                "target_id": "wiki/Avelia",
+                "label_text": "Avelia",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        35.469895517658053,
+                        -32.514129103123942
+                    ],
+                    [
+                        40.695246385177342,
+                        -32.740799574546017
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_larx",
+                "target_id": "wiki/Larx",
+                "label_text": "Larx",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        33.286700977119168,
+                        -33.790641757974541
+                    ],
+                    [
+                        35.982886584560624,
+                        -33.838361857221294
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lnl_grandhilmore",
+                "target_id": "wiki/GrandHilmore",
+                "label_text": "Grand Hilmore",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        31.290410158627854,
+                        -37.036934065067541
+                    ],
+                    [
+                        34.089989314437275,
+                        -37.089956397563931
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_evehilmore",
+                "target_id": "wiki/EveHilmore",
+                "label_text": "Eve Hilmore",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 5,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        35.192853830362196,
+                        -36.64456880459425
+                    ],
+                    [
+                        38.109082117663682,
+                        -36.676382204092086
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_saple",
+                "target_id": "wiki/Saple",
+                "label_text": "Saple",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        37.748530256688213,
+                        -40.186460615353141
+                    ],
+                    [
+                        41.354048866442774,
+                        -40.22887848135025
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lbl_sapleislands",
+                "target_id": "wiki/SapleIslands",
+                "label_text": "Saple Islands",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 4,
+                "max_zoom": 8,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        36.688083606760394,
+                        -48.373108752795829
+                    ],
+                    [
+                        38.427216112642,
+                        -50.748509248634129
+                    ],
+                    [
+                        41.120750603458646,
+                        -52.530059620512851
+                    ],
+                    [
+                        43.750658295279621,
+                        -52.805775749494089
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "lnl_laghunya",
+                "target_id": "wiki/Laghunya",
+                "label_text": "Laghunya",
+                "label_type": "country",
+                "rank": null,
+                "min_zoom": 8,
+                "max_zoom": 10,
+                "font_size": "13",
+                "font_style": null,
+                "font_weight": null,
+                "text_transform": null,
+                "letter_spacing": null,
+                "placement": null,
+                "start_offset": null,
+                "text_anchor": null,
+                "repeat": false,
+                "visibility": null,
+                "certainty": null,
+                "notes": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.639167370229238,
+                        5.127603010117745
+                    ],
+                    [
+                        22.360271092180149,
+                        5.115820269562992
+                    ]
+                ]
+            }
+        }
+    ]
 }
