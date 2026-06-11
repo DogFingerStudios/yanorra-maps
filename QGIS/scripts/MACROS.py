@@ -24,13 +24,13 @@ def openProject():
     layer.editingStopped.connect(rebuild_derived_cell_layers)
     
     layer = QgsProject.instance().mapLayersByName('streets_major')[0]
-    layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 4))
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 4, "urban"))
 
     layer = QgsProject.instance().mapLayersByName('streets_minor')[0]
-    layer.editingStopped.connect(lambda: generate_road_polygons("streets_minor", 4))
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_minor", 4, "urban"))
 
     layer = QgsProject.instance().mapLayersByName('alleys')[0]
-    layer.editingStopped.connect(lambda: generate_road_polygons("alleys", 4))
+    layer.editingStopped.connect(lambda: generate_road_polygons("alleys", 4, "urban"))
 
 def closeProject():
     pass
@@ -172,7 +172,7 @@ def export_data_files():
         print("'biomes` layer not found")
         
 
-def generate_road_polygons(layer_name, road_width_meters):
+def generate_road_polygons(layer_name, road_width_meters, container_group):
     ROAD_WIDTH_METERS = road_width_meters
     BUFFER_DISTANCE_METERS = ROAD_WIDTH_METERS / 2
 
@@ -304,15 +304,15 @@ def generate_road_polygons(layer_name, road_width_meters):
 
     root = project.layerTreeRoot()
 
-    urban_group = root.findGroup("urban")
+    urban_group = root.findGroup(container_group)
 
     if urban_group is None:
-        raise Exception("Could not find QGIS group: urban")
+        raise Exception(f"Could not find QGIS group: {container_group}")
 
     generated_group = urban_group.findGroup("generated")
 
     if generated_group is None:
-        raise Exception("Could not find QGIS group: urban/generated")
+        raise Exception(f"Could not find QGIS group: {container_group}/generated")
 
     # ------------------------------------------------------------
     # 7. Find existing generated layer
@@ -337,7 +337,7 @@ def generate_road_polygons(layer_name, road_width_meters):
     if existing_generated_layer is None:
         raise Exception(
             f"Could not find existing generated layer: "
-            f"urban/generated/{generated_layer_name}"
+            f"{container_group}/generated/{generated_layer_name}"
         )
 
     # ------------------------------------------------------------
@@ -367,7 +367,7 @@ def generate_road_polygons(layer_name, road_width_meters):
     existing_generated_layer.reload()
     existing_generated_layer.triggerRepaint()
 
-    print(f"Reloaded existing generated layer: urban/generated/{generated_layer_name}")
+    print(f"Reloaded existing generated layer: {container_group}/generated/{generated_layer_name}")
     print(f"Output path: {final_output}")
     print(f"Polygon feature count: {existing_generated_layer.featureCount()}")
 
