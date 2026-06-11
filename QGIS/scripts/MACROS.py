@@ -24,10 +24,10 @@ def openProject():
     layer.editingStopped.connect(rebuild_derived_cell_layers)
     
     layer = QgsProject.instance().mapLayersByName('streets_major')[0]
-    layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 12))
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 4))
 
     layer = QgsProject.instance().mapLayersByName('streets_minor')[0]
-    layer.editingStopped.connect(lambda: generate_road_polygons("streets_minor", 7))
+    layer.editingStopped.connect(lambda: generate_road_polygons("streets_minor", 4))
 
     layer = QgsProject.instance().mapLayersByName('alleys')[0]
     layer.editingStopped.connect(lambda: generate_road_polygons("alleys", 4))
