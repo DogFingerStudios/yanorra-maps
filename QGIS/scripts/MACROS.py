@@ -23,6 +23,7 @@ def openProject():
     layer = QgsProject.instance().mapLayersByName('cells_smooth')[0]
     layer.editingStopped.connect(rebuild_derived_cell_layers)
     
+    # generate the road polygons for roads within a city
     layer = QgsProject.instance().mapLayersByName('streets_major')[0]
     layer.editingStopped.connect(lambda: generate_road_polygons("streets_major", 4, "urban"))
 
@@ -31,6 +32,16 @@ def openProject():
 
     layer = QgsProject.instance().mapLayersByName('alleys')[0]
     layer.editingStopped.connect(lambda: generate_road_polygons("alleys", 4, "urban"))
+
+    # generate road polygons for roads between cities
+    layer = QgsProject.instance().mapLayersByName('roads_highway')[0]
+    layer.editingStopped.connect(lambda: generate_road_polygons("roads_highway", 4, "transportation"))
+
+    layer = QgsProject.instance().mapLayersByName('roads_major')[0]
+    layer.editingStopped.connect(lambda: generate_road_polygons("roads_major", 4, "transportation"))
+
+    layer = QgsProject.instance().mapLayersByName('roads_minor')[0]
+    layer.editingStopped.connect(lambda: generate_road_polygons("roads_minor", 4, "transportation"))
 
 def closeProject():
     pass
