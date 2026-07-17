@@ -1,5 +1,7 @@
 # Street Naming Conventions
 
+Streets are used inside of urban areas. They should not be used for rural roads connecting towns or villages. Rural roads should be in the `transportation` layer.
+
 ## Geometry-Based
 
 * Axis
